@@ -13,12 +13,12 @@ export default function Home() {
   const [loading, setLoading] = useState(false);
 
   const [item, setItem] = useState({
-    name: "Apple AirPods",
-    description: "Latest Apple AirPods.",
+    name: "Gas BNB Chain",
+    description: "GAS 0.1 BNB on Testnet",
     image:
-      "https://images.unsplash.com/photo-1572569511254-d8f925fe2cbb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1400&q=80",
+      "https://cdn.vectorstock.com/i/1000x1000/40/94/pixel-cryptocurrency-pack-vector-37204094.webp",
     quantity: 0,
-    price: 999,
+    price: 10,
   });
 
   const changeQuantity = (value) => {
